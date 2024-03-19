@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color:rgb(16, 190, 129);
+    font-size: 20px;
+}
+.hh{
+    margin-top: 90px;
+    margin-left: -5%;
+    font-size:30px;
+}
+.hh p{
+    font-size: 25px;
+}
+#logo
+{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color:wheat;
+}
+.hel{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.bar
+{
+    position: fixed;
+    background-color: rgb(49, 190, 140);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.26);
+    width: 100%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+.navlink
+{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.navlink:hover
+{
+    color:black;
+}
+
+.bar ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px;
+}
+
+.button
+{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin-right: 30px;
+    border-radius: 5%;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    display: block;
+    background-color:black;
+}
+
+p{
+    font-size: medium;
+    color:white;
+}
+
+h1
+{
+    font-size: 70px;
+}
+
+.large-icon
+{
+    display: block;
+    width: 500px;
+    height: auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#home
+{
+    background-color: black;
+    color: white;
+    padding-top: 200px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 350px;
+    
+}
+
+#bio
+{
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 250px;
+    height:200px;
+
+}
+
+article
+{
+    padding-left: 50px;  
+    font-size: 40px;
+    padding-right: 40px;
+}
+article p{
+
+   font-size: 20px;
+}
+.linkbtn
+{
+    
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    margin: 30px 2px;
+    cursor: pointer;
+    background-color:rgba(240, 81, 54); 
+    color: white;
+  border: 2px solid rgba(240, 81, 54);
+  border-radius: 3%;
+}
+
+.linkbtn:hover
+{
+    background-color:white; 
+    color:rgba(240, 81, 54);    
+    border: 2px solid rgba(240, 81, 54);
+  border-radius: 5%;
+}
+#portfolio
+{
+    margin-top: 0%;
+    padding-top: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 17%;
+    margin-bottom: 0%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#portfolio h2{
+    padding-top: 70px;
+    padding-bottom: 0px;  
+    color: black;
+}
+
+#portfolio p{
+    padding: 5%;
+    padding-bottom: 50px;
+    color: black;  
+}
+
+.port-cont
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 10%;
+    padding-top: 1%;
+    margin: 10px;
+    height: 30%;
+    width: 30%;
+}
+
+.port-div h4{
+    color: black;
+    font-size: 25px;
+}
+.port-div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-centered;
+}
+
+.h33{
+    color: black;
+    font-size: 25px;
+}
+
+.port-div p{
+    color: black;
+}
+
+.small-icon
+{
+    height: 70px;
+    width: 70px;
+    padding-bottom: 12%;
+}
+.languageskill
+{
+    width: 30%;
+}
+
+.skill h4{
+    padding-bottom: 20%;
+}
+
+.skill ul
+{
+    list-style: none;
+}
+
+progress
+{
+    height: 10px;
+    border-radius: 90%;
+    width: 120%;  
+}
+
+progress::-webkit-progress-value {background-color:black;}
+
+#skills
+{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10%;
+}
+
+#skills h3
+{
+    padding-bottom: 5%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.skill
+{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 20%;
+}
+#skills{
+    color: wheat;
+    background-color: rgb(49, 190, 140);
+    height: 400px;
+
+}
+.contacts
+{
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+
+.contact h2
+{
+    padding-top: 2%;
+    padding-bottom: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+input[type=text], select {
+  width: 500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
